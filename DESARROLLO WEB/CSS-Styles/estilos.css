@@ -1,0 +1,46 @@
+p {
+    color: fuchsia;
+    width: 300px;
+}
+
+/** De esta manera se aplica un comentario en un documento de CSS */
+
+h1 {
+    font-family: 'Unbounded', cursive;
+    border: 3px solid black;
+   /** padding-top: 30px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 15px; */
+    /** El código fuente de chrome lee estas características
+    en el sentido de las agujas del reloj (arriba-derecha-
+    abajo-izquierda) por lo que otra manera de escribir esto
+    seria: */
+    padding: 30px 15px 25px 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    color: orangered
+}
+
+section {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
+
+  #p_distinto {
+    color: black;
+    font-size: 30px;
+    border: 3px solid blueviolet;
+  }
+
+  .clase_personalizada {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: blue;
+    border: 2px solid salmon;
+  }
