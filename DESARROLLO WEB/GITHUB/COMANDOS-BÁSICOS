@@ -1,0 +1,10 @@
+git init 
+git status
+git add .      /Fundamental el punto, para seleccionar todos los archivos que no están versionados.
+git commit -m "nombre de la actualizacion"    /nombre que va a aparecer en el repositorio. 
+git status / para corroborar que no hay cambios pendientes de guardado y ver el historial de actualizaciones.
+git log / muestra el COMMIT ID ("dni de los cambios") con eñl historial de cambios, indicando cuando y quén los hizo.
+
+PARA VER UNA MODIFICACION:
+git status
+git diff "nombre del archivo" (o "git diff" solo, si no funciona)  / esto me va a mostrar CUAL fue el cambio
